@@ -562,6 +562,8 @@ Bug fixes from the first days of 0.5.0, a Safari extension, and more file types.
 
 These ship in the next version.
 
+- ✅ French: a torrent's **tracker** is a "tracker", as French download managers call it, not a
+  "traqueur" (thanks to [@Seyamalam](https://github.com/Seyamalam))
 - ✅ A way of drawing that failed once is tried again: after a graphics driver update, or a
   while that depends on why it failed (twice as long each time it fails again), and at the next
   start for a window slow just after signing in; View → Draw with says since when and until when
