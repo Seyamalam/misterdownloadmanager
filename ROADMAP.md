@@ -563,6 +563,13 @@ Bug fixes from the first days of 0.5.0, a Safari extension, and more file types.
 These ship in the next version.
 
 - ✅ The guide's links to **Click'n'Load** and **Proxy / Socks** land on their sections (thanks to [@Seyamalam](https://github.com/Seyamalam))
+- ✅ macOS: no more **The window stopped responding** report while a file dialog is open: the
+  time its window thread spends in a system Open or Save dialog isn't counted
+  ([#1192](https://github.com/anefzaoui/misterdownloadmanager/issues/1192))
+- ✅ The speed limit shows where the speed does: the progress window's Transfer rate names the
+  limit holding the download back (its own, the Speed Limiter's, or the one for all downloads),
+  the list's Transfer rate says it in its tip, and the status bar and the tray's tip say while the
+  Speed Limiter is on ([#1191](https://github.com/anefzaoui/misterdownloadmanager/issues/1191))
 - ✅ The window opens at once when an unfinished download is on a network share that doesn't
   answer or a sleeping drive: downloads' progress, and a new video's name, are read beside it
   (found with [#1170](https://github.com/anefzaoui/misterdownloadmanager/issues/1170))
