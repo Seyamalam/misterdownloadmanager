@@ -562,6 +562,9 @@ Bug fixes from the first days of 0.5.0, a Safari extension, and more file types.
 
 These ship in the next version.
 
+- ✅ Malay: a queue is a **baris gilir**, the clipboard a **papan klip** and a checksum a
+  **jumlah semak**, as the reviewed termbase settles them — not "giliran", "papan keratan" or
+  "jumlah hasil tambah" (thanks to [@Seyamalam](https://github.com/Seyamalam))
 - ✅ Windows: finished downloads drag out of the list onto a folder or a program, one or several,
   moved or copied as from Explorer; a moved file is followed, as from Download complete
   ([#1210](https://github.com/anefzaoui/misterdownloadmanager/issues/1210))
