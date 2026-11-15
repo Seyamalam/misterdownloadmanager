@@ -565,6 +565,10 @@ These ship in the next version.
 - ✅ Bangla: a menu or button's shortcut is its letter in brackets — "ফাইল(&F)", "থামান(&T)" —
   not "&" on a Bangla letter no key can press (thanks to
   [@Seyamalam](https://github.com/Seyamalam))
+- ✅ The browser extension's window and Test browser integration read the browsers' folders
+  beside the window, so a slow folder can't freeze it; macOS: a browser's folder macOS keeps MDM
+  out of is said, with the setting that allows it
+  ([#1218](https://github.com/anefzaoui/misterdownloadmanager/issues/1218))
 - ✅ Malay: a queue is a **baris gilir**, the clipboard a **papan klip** and a checksum a
   **jumlah semak**, as the reviewed termbase settles them — not "giliran", "papan keratan" or
   "jumlah hasil tambah" (thanks to [@Seyamalam](https://github.com/Seyamalam))
