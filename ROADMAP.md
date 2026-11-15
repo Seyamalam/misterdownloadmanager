@@ -562,6 +562,9 @@ Bug fixes from the first days of 0.5.0, a Safari extension, and more file types.
 
 These ship in the next version.
 
+- ✅ macOS: no more **The window stopped responding** report while a file dialog is open: the
+  time its window thread spends in a system Open or Save dialog isn't counted
+  ([#1192](https://github.com/anefzaoui/misterdownloadmanager/issues/1192))
 - ✅ The window opens at once when an unfinished download is on a network share that doesn't
   answer or a sleeping drive: downloads' progress, and a new video's name, are read beside it
   (found with [#1170](https://github.com/anefzaoui/misterdownloadmanager/issues/1170))
