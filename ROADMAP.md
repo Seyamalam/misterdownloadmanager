@@ -562,6 +562,11 @@ Bug fixes from the first days of 0.5.0, a Safari extension, and more file types.
 
 These ship in the next version.
 
+- ✅ Screen readers in the main window: Tab goes round the toolbar, the Categories tree and the
+  download list, and the screen reader says and follows the download, category or toolbar button
+  the keys are on; the toolbar is a toolbar of named buttons; the lists in MDM's windows say their
+  selected row as the arrows move it
+  ([#1190](https://github.com/anefzaoui/misterdownloadmanager/issues/1190))
 - ✅ macOS: MDM no longer closes when the displays change while it draws with OpenGL (a dock
   and the lid closed): it takes its OpenGL context back when the system left its thread without
   it, and a texture OpenGL still refuses is made on a later frame
