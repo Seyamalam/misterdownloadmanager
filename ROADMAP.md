@@ -571,6 +571,8 @@ These ship in the next version.
   CI runner no longer fails them
 - ✅ The Linux lab scripts (tools/lab) keep the lab VM account's password in private files, never on
   a command line, on the host or in the VM
+- ✅ Bangla: a plural is **-গুলো**, never "-গুলি" — "নামগুলো", "সাইটগুলো", "ফাইলগুলো" — and
+  a tab or window title takes none (thanks to [@Seyamalam](https://github.com/Seyamalam))
 - ✅ Bangla: spelled the Bangla Academy way — a link is a **লিংক**, a category a **শ্রেণি**,
   "already" is **ইতোমধ্যে** and a plural takes **-গুলো**, as the style guide settles them
   (thanks to [@Seyamalam](https://github.com/Seyamalam))
