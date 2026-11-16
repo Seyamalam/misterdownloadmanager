@@ -597,6 +597,8 @@ These ship in the next version.
 - ✅ Bangla: the control verbs stay distinct — stop is **থামান** (its state "থেমে গেছে"), a pause
   "বিরতি দিন", a resume "পুনরায় শুরু করুন", remove "বাদ দিন" — and a queue is a **সারি**, never
   "কিউ" (thanks to [@Seyamalam](https://github.com/Seyamalam))
+- ✅ Arabic: the browser is the **مستعرض**, never المتصفح — "ملحق المستعرض", "الربط المتقدم
+  بالمستعرض" (thanks to [@Seyamalam](https://github.com/Seyamalam))
 - ✅ Bangla: termbase alignment — export is **এক্সপোর্ট**, import is **ইম্পোর্ট**, help is
   **সহায়তা**, category is **শ্রেণি**, options is **বিকল্প** and redownload is **আবার ডাউনলোড**
   (thanks to [@abdul-karim-mia](https://github.com/abdul-karim-mia))
