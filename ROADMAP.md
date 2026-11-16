@@ -564,6 +564,9 @@ These ship in the next version.
 
 - ✅ The Linux lab scripts (tools/lab) keep the lab VM account's password in private files, never on
   a command line, on the host or in the VM
+- ✅ Bangla: spelled the Bangla Academy way — a link is a **লিংক**, a category a **শ্রেণি**,
+  "already" is **ইতোমধ্যে** and a plural takes **-গুলো**, as the style guide settles them
+  (thanks to [@Seyamalam](https://github.com/Seyamalam))
 - ✅ Bangla: a menu or button's shortcut is its letter in brackets — "ফাইল(&F)", "থামান(&T)" —
   not "&" on a Bangla letter no key can press (thanks to
   [@Seyamalam](https://github.com/Seyamalam))
