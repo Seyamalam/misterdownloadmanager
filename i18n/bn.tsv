@@ -432,8 +432,7 @@
 #, machine
 	All files	সমস্ত ফাইল
 #. text in helpers.rs
-#, machine
-	All set: on a page with a video, use Tasks → Download video from a page.	সব প্রস্তুত: ভিডিও সহ একটি পৃষ্ঠায়, টাস্ক → পৃষ্ঠা থেকে ভিডিও ডাউনলোড করুন ব্যবহার করুন।
+	All set: on a page with a video, use Tasks → Download video from a page.	সব প্রস্তুত: ভিডিও সহ একটি পেজে, টাস্ক → পেজ থেকে ভিডিও ডাউনলোড করুন ব্যবহার করুন।
 #. text in the Download video window
 #. in the Subtitles list of Download video: every language the video's uploader gave
 #, machine
@@ -1309,8 +1308,7 @@
 #. Download File Info: a check box, ticked when the download goes through the user's debrid account; {service} the service and the account, "Real-Debrid (labuser)". Unticked: downloaded directly
 	Download through {service}	{service}-এর মাধ্যমে ডাউনলোড করুন
 #. window title in the Download video window
-#, machine
-	Download video from a page	একটি পৃষ্ঠা থেকে ভিডিও ডাউনলোড করুন
+	Download video from a page	একটি পেজ থেকে ভিডিও ডাউনলোড করুন
 #. text in helpers.rs
 #. the headline of the first start's helpers window
 #, machine
@@ -1786,8 +1784,7 @@
 #. message or event log entry in the main window
 	from a magnet link	একটি ম্যাগনেট লিংক থেকে
 #. message or event log entry in the main window
-#, machine
-	from a page (yt-dlp)	একটি পৃষ্ঠা থেকে (yt-dlp)
+	from a page (yt-dlp)	একটি পেজ থেকে (yt-dlp)
 #. message or event log entry in the main window
 #. where a download came from (its Properties): a phone or computer paired in Options → Remote
 #, machine
@@ -2418,8 +2415,7 @@
 	Looking for your default browser...	আপনার ডিফল্ট ব্রাউজার খোঁজা হচ্ছে...
 #. text in the Download video window
 #. the trailing ... means it is still going on: keep it
-#, machine
-	Looking the page up...	পৃষ্ঠাটি খুঁজছে...
+	Looking the page up...	পেজটি খুঁজছে...
 #. text in countries.rs
 #. a country's name (where a download's server is)
 #, machine
@@ -2694,8 +2690,7 @@
 #, machine
 	Move	সরান
 #. what a keyboard shortcut does in the Help menu's windows (About, updates, shortcuts, Tell a friend)
-#, machine
-	Move a page up / down	পৃষ্ঠা উপরে/নিচে সরান
+	Move a page up / down	পেজ উপরে/নিচে সরান
 #. what a keyboard shortcut does in the Help menu's windows (About, updates, shortcuts, Tell a friend)
 #, machine
 	Move between the categories and the download list	ক্যাটাগরি এবং ডাউনলোড তালিকার মধ্যে চলাচল করুন
@@ -2934,11 +2929,9 @@
 	No trackers	কোনো ট্র্যাকার নেই
 #. text in the Download video window
 #. the Download video window: yt-dlp found no video on the page
-#, machine
-	No video found on this page. Play the video, then use the Download video button over it.	এই পৃষ্ঠায় কোনো ভিডিও পাওয়া যায়নি। ভিডিওটি চালান, তারপর ভিডিওর ওপর থাকা “ভিডিও ডাউনলোড” বোতামটি ব্যবহার করুন।
+	No video found on this page. Play the video, then use the Download video button over it.	এই পেজে কোনো ভিডিও পাওয়া যায়নি। ভিডিওটি চালান, তারপর ভিডিওর ওপর থাকা “ভিডিও ডাউনলোড” বোতামটি ব্যবহার করুন।
 #. text in the Download video window
-#, machine
-	No video this can download on that page	এই পৃষ্ঠায় ডাউনলোডযোগ্য কোনো ভিডিও নেই
+	No video this can download on that page	এই পেজে ডাউনলোডযোগ্য কোনো ভিডিও নেই
 #. message or event log entry in the main window
 #, machine
 	No web addresses were found in {file}.	{file}-এ কোনো ওয়েব ঠিকানা পাওয়া যায়নি।
@@ -2948,8 +2941,7 @@
 	None	কিছুই না
 #. text in the Download video window
 #. in the Subtitles list of Download video: the video has no subtitles
-#, machine
-	None on this page	এই পৃষ্ঠায় নেই
+	None on this page	এই পেজে নেই
 #. text in rssdlg.rs
 #. RSS feeds window, Download rules: no feed ticked means the rule watches all of them
 #, machine
@@ -3006,8 +2998,7 @@
 #, machine
 	Not now	এখন না
 #. text in helpers.rs
-#, machine
-	Not now? Get them later from Tasks → Download video from a page.	এখন না? পরে টাস্ক → একটি পৃষ্ঠা থেকে ভিডিও ডাউনলোড করুন থেকে সেগুলোকে পান।
+	Not now? Get them later from Tasks → Download video from a page.	এখন না? পরে টাস্ক → একটি পেজ থেকে ভিডিও ডাউনলোড করুন থেকে সেগুলোকে পান।
 #. text in a download's Properties window
 #, machine
 	not one server (peers, or a helper's)	একটি সার্ভার নয় (পিয়ার বা সহকারীর)
@@ -3167,8 +3158,7 @@
 	Open the following file when done:	হয়ে গেলে নিম্নলিখিত ফাইলটি খুলুন:
 #. button in the Options window
 #. button: open the service's page where the code is typed
-#, machine
-	Open the page	পৃষ্ঠাটি খুলুন
+	Open the page	পেজটি খুলুন
 #. text in crashui.rs
 #. crash report window button: open the GitHub issue already filed (and copy the report to add it there)
 #, machine
@@ -3200,8 +3190,7 @@
 #, machine
 	Package	প্যাকেজ
 #. text in gallerydlg.rs; text in the Download video window
-#, machine
-	Page address	পৃষ্ঠার ঠিকানা
+	Page address	পেজের ঠিকানা
 #. text in remote.rs
 #. remote control page (on a phone): button: pair this phone with MDM
 #, machine
@@ -3265,12 +3254,10 @@
 	Paste links here (Ctrl+V), or send a page's links from the browser.	এখানে লিংক পেস্ট করুন (Ctrl+V), অথবা ব্রাউজার থেকে একটি পেজের লিংক পাঠান।
 #. text in the Checksum window
 #. why Verify / OK is greyed in Verify checksum
-#, machine
-	Paste the checksum the download's page gives	ডাউনলোডের পৃষ্ঠা থেকে প্রাপ্ত চেকমার্ক পেস্ট করুন
+	Paste the checksum the download's page gives	ডাউনলোডের পেজ থেকে প্রাপ্ত চেকসাম পেস্ট করুন
 #. text in the Options window
 #. Options → Add an account: label before the field for the service's API key (Premiumize: the only way to sign in; the key is on the service's Account page)
-#, machine
-	Paste your API key (from the service's Account page):	আপনার API কী পেস্ট করুন (পরিষেবার অ্যাকাউন্ট পৃষ্ঠা থেকে):
+	Paste your API key (from the service's Account page):	আপনার API কী পেস্ট করুন (পরিষেবার অ্যাকাউন্ট পেজ থেকে):
 #. text in the Link grabber window
 #. Link grabber: where links came from: the clipboard (pasted with Ctrl+V)
 #, machine
@@ -3445,8 +3432,7 @@
 #, machine
 	Reading {file}...	{file} পড়া হচ্ছে...
 #. text in helpers.rs
-#, machine
-	Reads a page and lists every quality the site offers, up to 4K, from YouTube, Vimeo and over a thousand other sites.	একটি পৃষ্ঠা পড়ে এবং YouTube, Vimeo এবং হাজারেরও বেশি অন্যান্য সাইট থেকে সাইটটি অফার করা প্রতিটি গুণমান, 4K পর্যন্ত তালিকাভুক্ত করে।
+	Reads a page and lists every quality the site offers, up to 4K, from YouTube, Vimeo and over a thousand other sites.	একটি পেজ পড়ে এবং YouTube, Vimeo এবং হাজারেরও বেশি অন্যান্য সাইট থেকে সাইটটি অফার করা প্রতিটি গুণমান, 4K পর্যন্ত তালিকাভুক্ত করে।
 #. text in helpers.rs
 #. the helpers are downloaded, checked and ready; {list} = names and versions, e.g. "yt-dlp 2026.10.26, ffmpeg 9.0"
 #, machine
@@ -4499,12 +4485,10 @@
 	the site sent a web page instead of the file (a waiting page, a captcha or a sign-in): open the link in your browser, finish there, and the download comes back to MDM	সাইটটি ফাইলের পরিবর্তে একটি ওয়েব পেজ পাঠিয়েছে (একটি অপেক্ষার পেজ, একটি ক্যাপচা বা একটি সাইন-ইন): আপনার ব্রাউজারে লিংকটি খুলুন, সেখানে শেষ করুন এবং ডাউনলোডটি MDM-এ ফিরে আসবে
 #. text in the Download video window
 #. the Download video window: the site asked for a sign-in although the browser's extension passed the page's cookies
-#, machine
-	The site wants you signed in, even with your browser's cookies for this page. Sign in to it in your browser, then try again.	এই পৃষ্ঠার জন্য আপনার ব্রাউজারের কুকিজ থাকা সত্ত্বেও সাইটটি আপনাকে সাইন ইন করতে বলছে। আপনার ব্রাউজারে সাইন ইন করুন, তারপর আবার চেষ্টা করুন।
+	The site wants you signed in, even with your browser's cookies for this page. Sign in to it in your browser, then try again.	এই পেজের জন্য আপনার ব্রাউজারের কুকিজ থাকা সত্ত্বেও সাইটটি আপনাকে সাইন ইন করতে বলছে। আপনার ব্রাউজারে সাইন ইন করুন, তারপর আবার চেষ্টা করুন।
 #. text in the Download video window
 #. the Download video window: the site asked for a sign-in although yt-dlp had the cookies of the browser chosen in Options; {browser} = its name
-#, machine
-	The site wants you signed in, even with {browser}'s cookies. Sign in to it in {browser}, then look the page up again.	আপনার {browser}-এর কুকিজ থাকা সত্ত্বেও সাইটটি আপনাকে সাইন ইন করতে বলছে। আপনার {browser}-এ সাইন ইন করুন, তারপর আবার পৃষ্ঠাটি দেখুন।
+	The site wants you signed in, even with {browser}'s cookies. Sign in to it in {browser}, then look the page up again.	আপনার {browser}-এর কুকিজ থাকা সত্ত্বেও সাইটটি আপনাকে সাইন ইন করতে বলছে। আপনার {browser}-এ সাইন ইন করুন, তারপর আবার পেজটি দেখুন।
 #. text in the Download video window
 #. the Download video window: the site's bot check (Cloudflare) turned yt-dlp away though the browser's extension passed the page's cookies
 	The site's bot check (Cloudflare) refused yt-dlp, even with your browser's cookies for this page. Try again later, or from another browser.	সাইটের বট চেক (Cloudflare) yt-dlp প্রত্যাখ্যান করেছে, এমনকি এই পৃষ্ঠার জন্য আপনার ব্রাউজারের কুকিজ সহও। পরে আবার চেষ্টা করুন, অথবা অন্য ব্রাউজার থেকে।
@@ -4580,8 +4564,7 @@
 #, machine
 	The update is open in your system's package installer.	আপডেটটি আপনার সিস্টেমের প্যাকেজ ইনস্টলারে খোলা আছে।
 #. text in a download's Properties window
-#, machine
-	The web page from which this file was obtained:	যে ওয়েব পৃষ্ঠা থেকে এই ফাইলটি পাওয়া গেছে:
+	The web page from which this file was obtained:	যে ওয়েব পেজ থেকে এই ফাইলটি পাওয়া গেছে:
 #. message or event log entry in the main window
 #. the kind of file View → Theme → Add a theme file lists: MDM's themes (TOML, JSON), Base16 schemes (YAML) and pywal's colors.json
 #, machine
@@ -5353,12 +5336,10 @@
 	YouTube needs a JavaScript runtime to list its video qualities: install Node.js or Deno, then look it up again	YouTube-এর ভিডিওর গুণমানগুলো তালিকাভুক্ত করতে JavaScript রানটাইম প্রয়োজন: Node.js অথবা Deno ইনস্টল করুন, তারপর আবার খুঁজুন
 #. text in the Download video window
 #. the Download video window: yt-dlp couldn't read the cookies of the browser chosen in Options (Chrome, Edge...), which holds them while it runs; {browser} = its name
-#, machine
-	yt-dlp can't read {browser}'s cookies while {browser} is open. Close {browser} and look the page up again, or choose Firefox in Options → Sites Logins.	{browser} খোলা থাকা অবস্থায় yt-dlp {browser}-এর কুকিজ পড়তে পারে না। {browser} বন্ধ করুন এবং পৃষ্ঠাটি আবার দেখুন, অথবা বিকল্প → সাইট লগইন-এ Firefox বেছে নিন।
+	yt-dlp can't read {browser}'s cookies while {browser} is open. Close {browser} and look the page up again, or choose Firefox in Options → Sites Logins.	{browser} খোলা থাকা অবস্থায় yt-dlp {browser}-এর কুকিজ পড়তে পারে না। {browser} বন্ধ করুন এবং পেজটি আবার দেখুন, অথবা বিকল্প → সাইট লগইন-এ Firefox বেছে নিন।
 #. text in the Download video window
 #. the Download video window (Linux, macOS): the key to the browser's cookies is in the system's keyring (GNOME Keyring, KWallet, the macOS keychain), which didn't give it; {browser} = its name
-#, machine
-	yt-dlp couldn't get the key to {browser}'s cookies from the system's keyring. Unlock the keyring and look the page up again.	yt-dlp সিস্টেমের কী-রিং থেকে {browser}-এর কুকিজের কী পেতে পারেনি। কী-রিং আনলক করুন এবং পৃষ্ঠাটি আবার দেখুন।
+	yt-dlp couldn't get the key to {browser}'s cookies from the system's keyring. Unlock the keyring and look the page up again.	yt-dlp সিস্টেমের কী-রিং থেকে {browser}-এর কুকিজের কী পেতে পারেনি। কী-রিং আনলক করুন এবং পেজটি আবার দেখুন।
 #. text in the Download video window
 #. the Download video window: yt-dlp couldn't read the cookies of the browser chosen in Options; {browser} = its name, {error} = yt-dlp's words
 #. {error} = an error message (keep the braces as they are)
@@ -5384,12 +5365,10 @@
 #, machine
 	yt-dlp found no cookies of {browser} on this computer. Check the browser and its profile in Options → Sites Logins.	yt-dlp এই কম্পিউটারে {browser}-এর কোনো কুকিজ খুঁজে পায়নি। বিকল্প → সাইট লগইন-এ ব্রাউজার এবং তার প্রোফাইল পরীক্ষা করুন।
 #. message or event log entry in the main window
-#, machine
-	yt-dlp is not installed (Tasks → Download video from a page installs it)	yt-dlp ইনস্টল করা নেই (টাস্ক → একটি পৃষ্ঠা থেকে ভিডিও ডাউনলোড করুন এটি ইনস্টল করে)
+	yt-dlp is not installed (Tasks → Download video from a page installs it)	yt-dlp ইনস্টল করা নেই (টাস্ক → একটি পেজ থেকে ভিডিও ডাউনলোড করুন এটি ইনস্টল করে)
 #. text in the Options window
 #. Options → Sites Logins → Cookies for video sites: the tooltip of its choices
-#, machine
-	yt-dlp signs in to video sites with this browser's cookies, read from its files on this computer only. Used when the browser's extension didn't pass the page's own: a pasted address, a playlist.	yt-dlp শুধুমাত্র এই কম্পিউটারে তার ফাইল থেকে পড়া এই ব্রাউজারের কুকিজ দিয়ে ভিডিও সাইটে সাইন ইন করে। ব্রাউজারের এক্সটেনশন পৃষ্ঠার নিজস্ব কুকিজ পাস না করলে এটি ব্যবহৃত হয়: একটি পেস্ট করা ঠিকানা, একটি প্লেলিস্ট।
+	yt-dlp signs in to video sites with this browser's cookies, read from its files on this computer only. Used when the browser's extension didn't pass the page's own: a pasted address, a playlist.	yt-dlp শুধুমাত্র এই কম্পিউটারে তার ফাইল থেকে পড়া এই ব্রাউজারের কুকিজ দিয়ে ভিডিও সাইটে সাইন ইন করে। ব্রাউজারের এক্সটেনশন পেজের নিজস্ব কুকিজ পাস না করলে এটি ব্যবহৃত হয়: একটি পেস্ট করা ঠিকানা, একটি প্লেলিস্ট।
 #. text in helpers.rs
 #. helper name and what it does (yt-dlp is a program's name)
 #, machine
@@ -5791,8 +5770,7 @@ extension	Button settings...	বোতামের সেটিংস...
 extension	can't be saved	সংরক্ষণ করা যাবে না
 #. text in the browser extension
 #. shown briefly on the download button when nothing on the page says which video the player is playing, so nothing was sent
-#, machine
-extension	Can't tell which video this is: open its own page and try there	এটি কোন ভিডিও তা বোঝা যাচ্ছে না: ভিডিওটির নিজের পৃষ্ঠা খুলে সেখানে চেষ্টা করুন
+extension	Can't tell which video this is: open its own page and try there	এটি কোন ভিডিও তা বোঝা যাচ্ছে না: ভিডিওটির নিজের পেজ খুলে সেখানে চেষ্টা করুন
 #. text in the browser extension
 #. the toolbar button's status when the browser reaches the app; keep the name Mister Download Manager as it is
 #, machine
@@ -5926,8 +5904,7 @@ extension	Looking up took too long	খুঁজতে অনেক বেশি 
 extension	MDM didn't answer	MDM সাড়া দেয়নি
 #. text in the browser extension
 #. heading in the toolbar button's popup over the list of the videos, sounds and streams the current web page has loaded
-#, machine
-extension	Media on this page	এই পৃষ্ঠার মিডিয়া
+extension	Media on this page	এই পেজের মিডিয়া
 #. text in the browser extension
 #. the extension's name in the browser's list of extensions and on its toolbar button; keep the name Mister Download Manager as it is
 #, machine
@@ -5980,8 +5957,7 @@ extension	Never on {site}	{site}-এ আর কখনও নয়
 extension	Never take downloads from {site}	{site} থেকে আর ডাউনলোড নেবেন না
 #. text in the browser extension
 #. shown in the toolbar button's popup when the current web page hasn't loaded any video, sound or stream yet
-#, machine
-extension	No video or sound found on this page yet. Play it, then open this again.	এই পৃষ্ঠায় এখনো কোনো ভিডিও বা অডিও পাওয়া যায়নি। এটি চালান, তারপর এটি আবার খুলুন।
+extension	No video or sound found on this page yet. Play it, then open this again.	এই পেজে এখনো কোনো ভিডিও বা অডিও পাওয়া যায়নি। এটি চালান, তারপর এটি আবার খুলুন।
 #. text in the browser extension
 #. in the menu under the download button over a video: the app found no quality of the video it could download
 #, machine
@@ -6036,8 +6012,7 @@ extension	Pairing code	পেয়ারিং কোড
 extension	Paused: downloads stay with the browser	বিরত আছে: ডাউনলোডগুলো ব্রাউজারের সাথে থাকে
 #. text in the browser extension
 #. Option in the browser extension media list: put the page title before the original file name when downloading a detected media file
-#, machine
-extension	Prefix media file names with the page title	মিডিয়া ফাইলের নামের আগে পৃষ্ঠার শিরোনাম যোগ করুন
+extension	Prefix media file names with the page title	মিডিয়া ফাইলের নামের আগে পেজের শিরোনাম যোগ করুন
 #. text in the browser extension
 #. shown instead of the Download button beside a copy-protected (DRM) stream in the toolbar button's popup: it can't be downloaded; short
 #, machine
@@ -6108,8 +6083,7 @@ extension	This computer	এই কম্পিউটার
 extension	This download's details were too large to hand over	এই ডাউনলোডের বিবরণ হস্তান্তর করার জন্য খুব বড় ছিল
 #. text in the browser extension
 #. in the toolbar button's popup, when the page's player plays from a stream built in the page (a blob:): the list of the page's media has nothing to show; Download video is the name of the button over videos
-#, machine
-extension	This page's player streams its video in pieces, so there's no file to list. Point at the video and use its Download video button.	এই পৃষ্ঠার প্লেয়ার ভিডিওটি খণ্ড খণ্ড করে স্ট্রিম করে, তাই তালিকায় দেখানোর মতো কোনো ফাইল নেই। ভিডিওর উপর পয়েন্টার রেখে এর «ভিডিও ডাউনলোড করুন» বোতামটি ব্যবহার করুন।
+extension	This page's player streams its video in pieces, so there's no file to list. Point at the video and use its Download video button.	এই পেজের প্লেয়ার ভিডিওটি খণ্ড খণ্ড করে স্ট্রিম করে, তাই তালিকায় দেখানোর মতো কোনো ফাইল নেই। ভিডিওর উপর পয়েন্টার রেখে এর «ভিডিও ডাউনলোড করুন» বোতামটি ব্যবহার করুন।
 #. text in the browser extension
 #. button on the download button over a video when it is off on this web site: turns it on again here; verb; very short
 #, machine
