@@ -705,6 +705,8 @@ These ship in the next version.
   start for a window slow just after signing in; View → Draw with says since when and until when
   ([#1205](https://github.com/anefzaoui/misterdownloadmanager/issues/1205))
 - ✅ The guide's links to **Click'n'Load** and **Proxy / Socks** land on their sections (thanks to [@Seyamalam](https://github.com/Seyamalam))
+- ✅ The termbases reach the newest machine rows too — Arabic's browser is the مستعرض and
+  Bangla's details are বিস্তারিত (thanks to [@Seyamalam](https://github.com/Seyamalam))
 - ✅ macOS: no more **The window stopped responding** report while a file dialog is open: the
   time its window thread spends in a system Open or Save dialog isn't counted
   ([#1192](https://github.com/anefzaoui/misterdownloadmanager/issues/1192))
