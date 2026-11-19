@@ -1639,6 +1639,9 @@ These ship in the next version.
   and the catalogs carry the extension's **Forget** row again, so regenerating the locale
   files keeps the popup's forget-a-server button in every language (thanks to
   [@Seyamalam](https://github.com/Seyamalam))
+- ✅ CI keeps the extension's locale files equal to the catalogs' output: a text added to
+  English's messages.json without a translate.py run, or a catalog fix left unregenerated,
+  fails the browser-extension job (thanks to [@Seyamalam](https://github.com/Seyamalam))
 
 ## Being worked on
 
