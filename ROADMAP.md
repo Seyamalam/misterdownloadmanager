@@ -1634,6 +1634,11 @@ These ship in the next version.
   page (which Windows files are signed, who reviews and approves, privacy), linked from every
   page's footer, the download page and the README; the privacy policy says what the crash
   report window asks GitHub
+- ✅ The extension's translations match its catalogs again — the shipped Arabic, Bangla, Malay
+  and Chinese texts take the termbase corrections (المستعرض, সব, বিস্তারিত, baris gilir) —
+  and the catalogs carry the extension's **Forget** row again, so regenerating the locale
+  files keeps the popup's forget-a-server button in every language (thanks to
+  [@Seyamalam](https://github.com/Seyamalam))
 
 ## Being worked on
 
