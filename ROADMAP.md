@@ -1655,6 +1655,12 @@ These ship in the next version.
 - ✅ How a change is verified, written down: a `verify` skill (`.claude/skills/verify`) for
   running a change for real before it's merged, and REVIEW.md, what to check by what a pull
   request touches; every pull request says what was verified and what wasn't
+- ✅ Screen readers name the buttons a glyph or a shared word hid: "+" is "Add category",
+  "..." is "Browse", Options' two "Edit..." buttons take their captions ("Customize MDM
+  menu items in context menu of browsers", "Customize MDM Download panels in browsers"),
+  and the remembered folder field is "Category folder", not the checkbox's caption
+  ([#1407](https://github.com/anefzaoui/misterdownloadmanager/issues/1407); thanks to
+  [@Seyamalam](https://github.com/Seyamalam))
 
 ## Being worked on
 
