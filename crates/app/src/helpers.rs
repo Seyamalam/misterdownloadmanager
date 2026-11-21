@@ -401,7 +401,7 @@ impl Helpers {
                 o.y + y + 20.0 + 16.0 * (lines as f32 - 1.0) + 4.0,
             ),
         ));
-        winui::readable(ui, later_rc, "helpers-later", later);
+        winui::readable(ui, later_rc, ("helpers", "later"), later);
         crate::dialogs::grow_px(
             ui.ctx(),
             "helpers-advice",
