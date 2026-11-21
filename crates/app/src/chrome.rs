@@ -1552,6 +1552,7 @@ fn popup_level<C: Clone>(
     ctx.show_viewport_immediate(vid, builder, |ui, _| {
         // Made a menu window in its own pass, before anything is drawn in it (style_popup).
         styled = style_popup(&title, PopupLook::Menu);
+        crate::winui::name_window(ui);
         // What happens in this window, for popup() and keyboard(), which run in the parent's
         // pass: they must not ask egui about a menu window by its id, which creates one when it
         // isn't open (a submenu, mostly): an untitled copy of the main window, opened and closed
