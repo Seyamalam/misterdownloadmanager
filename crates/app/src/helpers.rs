@@ -230,7 +230,7 @@ impl Helpers {
             let y = 100.0 + k as f32 * 72.0;
             icon.image(true)
                 .paint_at(ui, r(o, 22.0, y + 2.0, 32.0, 32.0));
-            winui::text_font(
+            let name_rc = winui::text_font(
                 &p,
                 winui::tahoma_bold(),
                 o.x + 68.0,
@@ -238,7 +238,9 @@ impl Helpers {
                 crate::i18n::t(name),
                 ink,
             );
-            winui::paragraph(
+            // Painted text a screen reader couldn't see before (#1407).
+            winui::readable(ui, name_rc, ("helpers-name", k), crate::i18n::t(name));
+            let lines = winui::paragraph(
                 &p,
                 o.x + 68.0,
                 o.y + y + 29.0,
@@ -247,6 +249,14 @@ impl Helpers {
                 o.x + w - 18.0,
                 14.0,
             );
+            let what_rc = winui::rect(egui::Rect::from_min_max(
+                egui::pos2(o.x + 68.0, o.y + y + 29.0 - 12.0),
+                egui::pos2(
+                    o.x + w - 18.0,
+                    o.y + y + 29.0 + 14.0 * (lines as f32 - 1.0) + 4.0,
+                ),
+            ));
+            winui::readable(ui, what_rc, ("helpers-what", k), what);
         }
 
         // After Yes: one bar for both, centred under the last section, and what it is doing.
@@ -384,6 +394,14 @@ impl Helpers {
             o.x + w - 16.0,
             16.0,
         );
+        let later_rc = winui::rect(egui::Rect::from_min_max(
+            egui::pos2(o.x + 16.0, o.y + y + 20.0 - 12.0),
+            egui::pos2(
+                o.x + w - 16.0,
+                o.y + y + 20.0 + 16.0 * (lines as f32 - 1.0) + 4.0,
+            ),
+        ));
+        winui::readable(ui, later_rc, "helpers-later", later);
         crate::dialogs::grow_px(
             ui.ctx(),
             "helpers-advice",
@@ -422,6 +440,11 @@ impl Helpers {
                 false,
                 None,
             );
+            // The window opens with the focus on its default button: a screen reader says it,
+            // not just the title (#1407).
+            if ui.memory(|m| m.focused().is_none()) {
+                yes.request_focus();
+            }
             if yes.clicked() || winui::enter_pressed(ui) {
                 *answer = Some(true);
             } else if not_now.clicked() {

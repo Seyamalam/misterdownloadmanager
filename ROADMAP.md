@@ -1721,6 +1721,12 @@ These ship in the next version.
   only its number; the same two boxes on the **Scheduler**'s limits page are named too
   ([#1407](https://github.com/anefzaoui/misterdownloadmanager/issues/1407); thanks to
   [@Seyamalam](https://github.com/Seyamalam))
+- ✅ Screen readers read the **Get ready for video downloads** window: its headline and
+  each helper's name and description were painted text a reader never saw (the same
+  banner wherever it heads a window), and the window now opens with the focus on its
+  default button, **Yes, download them (recommended)**, instead of on the frame
+  ([#1407](https://github.com/anefzaoui/misterdownloadmanager/issues/1407); thanks to
+  [@Seyamalam](https://github.com/Seyamalam))
 - ✅ Tests: the video checks of an address that expires while downloading (a stream's, and DASH
   pieces') no longer fail now and then on a busy computer: the test server times such a link from
   its first request, not from the look-up that gave it, so a slow start can't kill it before the

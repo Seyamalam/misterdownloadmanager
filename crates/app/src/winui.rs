@@ -254,6 +254,8 @@ pub fn banner(
     let bold = tahoma_title();
     let shown = ellipsize(p, &bold, headline, w - 18.0 - 80.0);
     let drawn = text_font(p, bold, o.x + 80.0, o.y + 36.0, &shown, TEXT());
+    // The banner's words reach a screen reader too: they were only painted before (#1407).
+    readable(ui, drawn, (key, "headline"), headline);
     if shown != headline {
         full_on_hover(ui, drawn, (key, "headline"), headline);
     }
@@ -266,6 +268,14 @@ pub fn banner(
         o.x + w - 18.0,
         14.0,
     );
+    let said = rect(Rect::from_min_max(
+        pos2(o.x + 80.0, o.y + 57.0 - 12.0),
+        pos2(
+            o.x + w - 18.0,
+            o.y + 57.0 + 14.0 * (lines as f32 - 1.0) + 4.0,
+        ),
+    ));
+    readable(ui, said, (key, "subline"), subline);
     // As planned, two lines: the second one's baseline at 71, then 13 px of descent and margin.
     let need = 57.0 + 14.0 * (lines.max(2) as f32 - 1.0) + 13.0;
     crate::dialogs::grow_px(ui.ctx(), key, need - PLANNED);
