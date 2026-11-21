@@ -240,7 +240,8 @@ impl Helpers {
             );
             // Painted text a screen reader couldn't see before (#1407).
             winui::readable(ui, name_rc, ("helpers-name", k), crate::i18n::t(name));
-            let lines = winui::paragraph(
+            winui::readable_paragraph(
+                ui,
                 &p,
                 o.x + 68.0,
                 o.y + y + 29.0,
@@ -248,15 +249,8 @@ impl Helpers {
                 muted,
                 o.x + w - 18.0,
                 14.0,
+                ("helpers-what", k),
             );
-            let what_rc = winui::rect(egui::Rect::from_min_max(
-                egui::pos2(o.x + 68.0, o.y + y + 29.0 - 12.0),
-                egui::pos2(
-                    o.x + w - 18.0,
-                    o.y + y + 29.0 + 14.0 * (lines as f32 - 1.0) + 4.0,
-                ),
-            ));
-            winui::readable(ui, what_rc, ("helpers-what", k), what);
         }
 
         // After Yes: one bar for both, centred under the last section, and what it is doing.
@@ -332,7 +326,8 @@ impl Helpers {
             if failed && winui::text_width(&p, &line) > room {
                 // A failure is read whole (#816): wrapped, the window growing by its lines past
                 // the first.
-                let n = winui::paragraph(
+                let n = winui::readable_paragraph(
+                    ui,
                     &p,
                     o.x + 20.0,
                     o.y + 340.0,
@@ -340,6 +335,7 @@ impl Helpers {
                     color,
                     o.x + w - 20.0,
                     16.0,
+                    ("helpers", "status"),
                 );
                 more = 16.0 * n.saturating_sub(1) as f32;
             } else {
@@ -354,6 +350,8 @@ impl Helpers {
                     &shown,
                     color,
                 );
+                // Whole for a screen reader too, even when the window cut it (#1407).
+                winui::readable(ui, rc, ("helpers", "status"), &line);
                 if shown != line {
                     winui::full_on_hover(ui, rc, "helpers-status", &line);
                 }
@@ -385,7 +383,8 @@ impl Helpers {
             crate::i18n::t("Not now? Get them later from Tasks → Download video from a page.")
         };
         // Wrapped: the window grows by the lines past the first.
-        let lines = winui::paragraph(
+        let lines = winui::readable_paragraph(
+            ui,
             &p,
             o.x + 16.0,
             o.y + y + 20.0,
@@ -393,15 +392,8 @@ impl Helpers {
             muted,
             o.x + w - 16.0,
             16.0,
+            ("helpers", "later"),
         );
-        let later_rc = winui::rect(egui::Rect::from_min_max(
-            egui::pos2(o.x + 16.0, o.y + y + 20.0 - 12.0),
-            egui::pos2(
-                o.x + w - 16.0,
-                o.y + y + 20.0 + 16.0 * (lines as f32 - 1.0) + 4.0,
-            ),
-        ));
-        winui::readable(ui, later_rc, ("helpers", "later"), later);
         crate::dialogs::grow_px(
             ui.ctx(),
             "helpers-advice",
@@ -481,6 +473,11 @@ impl Helpers {
                 false,
                 None,
             );
+            // When Yes goes away its focus goes with it: Close takes it, so the reader lands
+            // somewhere (#1407).
+            if ui.memory(|m| m.focused().is_none()) {
+                close.request_focus();
+            }
             if close.clicked() || winui::enter_pressed(ui) {
                 *answer = Some(false);
             }
