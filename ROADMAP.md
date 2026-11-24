@@ -2137,6 +2137,10 @@ These ship in the next version.
   Tests: the feed case of the add-on's real-browser tests checks that the menu is inside the
   window, and waits for the button over the video it points at, not the last one's, still fading
 - ✅ Torrents: magnet links, torrent files and trackers are checked more carefully.
+- ✅ A screen reader says a tab's place on its strip — "Connection 5 of 12" in Options, "2 of 2"
+  in Download progress — where before the tab's position and count weren't published
+  ([#1407](https://github.com/anefzaoui/misterdownloadmanager/issues/1407); thanks to
+  [@Seyamalam](https://github.com/Seyamalam))
 
 ## Being worked on
 
