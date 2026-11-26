@@ -569,6 +569,11 @@ Bug fixes from the first days of 0.5.0, a Safari extension, and more file types.
 
 These ship in the next version.
 
+- ✅ Windows: a crash inside the graphics driver while OpenGL draws (Intel's and AMD's OpenGL
+  drivers, NVIDIA's Direct3D 11 thread on laptops with two graphics chips) moves MDM off OpenGL
+  from the next start, as a freeze there does: Direct3D 12, on WARP when the card can't, and
+  View → Draw with says why; tried again after a driver update or a month
+  ([#1659](https://github.com/anefzaoui/misterdownloadmanager/issues/1659))
 - ✅ Options: a longer translation's note stays inside its page, whole on hover; HatchZip's
   check box ends inside its group box ([#1845](https://github.com/anefzaoui/misterdownloadmanager/issues/1845))
 - ✅ Hugging Face models and datasets (a whole repository or a folder, at a branch, tag or commit)
@@ -2151,6 +2156,11 @@ These ship in the next version.
   Tests: the feed case of the add-on's real-browser tests checks that the menu is inside the
   window, and waits for the button over the video it points at, not the last one's, still fading
 - ✅ Torrents: magnet links, torrent files and trackers are checked more carefully.
+- ✅ One folder for every download: **Options → Save to → Save every download in "General"
+  category's folder** sends every new download there, whatever its category, from every place a
+  download comes from; the categories still sort the list, and a single download can still go
+  elsewhere ([#1973](https://github.com/anefzaoui/misterdownloadmanager/issues/1973), asked in
+  [#716](https://github.com/anefzaoui/misterdownloadmanager/issues/716))
 - ✅ Linux: menus opened near a screen's bottom or right edge stay on the screen (X11 and
   XWayland: the monitor's work area, read from RandR and the desktop's work area), submenus and
   larger interface sizes too (thanks to [@madratzz](https://github.com/madratzz))
